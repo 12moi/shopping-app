@@ -59,3 +59,12 @@ img:hover{
     height: 10vh;
     background-color: black;
 }
+
+.login{
+width: 100%;
+min-height: 10vh;
+align-items: center;
+justify-content: center;
+flex-direction: column;
+display: flex;
+}
