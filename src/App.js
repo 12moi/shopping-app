@@ -3,7 +3,7 @@ import './App.css';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import Products from './components/Products';
-import login from './components/Login';
+import Login from './components/Login';
 import { useState } from 'react';
 
 function App() {
@@ -12,9 +12,9 @@ function App() {
   return (
     <div className="App">
       
-
       <Navbar />
-      <Products />
+      {token ? <Products />: <Login token={token} setToken={setToken}/>}
+      
       <Footer />
     </div>
   );
