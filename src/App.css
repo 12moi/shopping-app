@@ -13,6 +13,10 @@
     padding: 10px;
     color: white;
     align-items: center;
+    position: fixed;
+    top: 0;
+    margin-bottom: 8%;
+    overflow: hidden;
 }
 img{
     width: 250px;
