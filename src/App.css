@@ -2,6 +2,10 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    
+}
+body{
+    min-height: 100vh;
 }
 .navbar{
     width: 100%;
@@ -17,6 +21,7 @@
     top: 0;
     margin-bottom: 8%;
     overflow: hidden;
+    z-index: 1;
 }
 img{
     width: 250px;
@@ -57,6 +62,8 @@ img:hover{
     color: white;
     align-items: center;
     height: 10vh;
+    position: sticky;
+    top:100%;
     background-color: black;
 }
 
