@@ -61,12 +61,14 @@ img:hover{
 }
 
 .login{
+flex-direction: column;
+display:inline-flex;
 width: 100%;
+height: 80vh;
 min-height: 10vh;
 align-items: center;
 justify-content: center;
-flex-direction: column;
-display: flex;
+
 }
 
 .login-inputs{
