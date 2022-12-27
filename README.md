@@ -3,8 +3,10 @@
 ## Description
 This is a simple react app that shows products on sale built using react, css and Javascript.
 
-
-
+## Screenshot
+![Alt text](/src/assets/images/home.png?raw=true "Home page")
+## How to Install and Run Shopping App
+For contribution to this you can fork or clone it then run npm  install to install  dependencies.
 
 
 ## Licence
