@@ -32,6 +32,7 @@ img:hover{
     transform: scale(1.1);
 }
 .products-container{
+    margin-top: 4%;
     width: 100%;
     padding: 10px;
     justify-items: center;
