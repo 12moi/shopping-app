@@ -1,5 +1,8 @@
 {
     "marquee.widgets.npm-stats.packageNames": [
         "shopping-app"
+    ],
+    "cSpell.words": [
+        "Licence"
     ]
 }
